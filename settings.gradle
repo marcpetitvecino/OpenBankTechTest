@@ -8,3 +8,4 @@ dependencyResolutionManagement {
 }
 rootProject.name = "OpenBankTechTest"
 include ':app'
+include ':networking'

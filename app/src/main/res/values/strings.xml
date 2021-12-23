@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">OpenBankTechTest</string>
+    <string name="public_key">c52efefb2223d6c12ca80626c74965a1</string>
+    <string name="private_key">b81cfa12f0b4925cc4c9d2983caec040c598a8a0</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
