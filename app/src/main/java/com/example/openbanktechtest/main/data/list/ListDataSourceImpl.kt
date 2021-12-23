@@ -7,9 +7,7 @@ import com.example.data.repository.RetrofitDataSource
 import com.example.openbanktechtest.main.data.response.ResponseDTO
 import com.example.openbanktechtest.main.domain.character.CharacterDomainModel
 import com.example.openbanktechtest.main.domain.list.ListDataSource
-import com.example.openbanktechtest.main.domain.list.ListDomainModel
 import com.example.openbanktechtest.main.domain.list.ListRequest
-import com.example.openbanktechtest.main.domain.response.ResponseDomainModel
 import retrofit2.Retrofit
 
 class ListDataSourceImpl(

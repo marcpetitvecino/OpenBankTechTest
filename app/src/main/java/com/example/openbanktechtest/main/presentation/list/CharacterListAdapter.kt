@@ -2,14 +2,13 @@ package com.example.openbanktechtest.main.presentation.list
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import androidx.recyclerview.widget.ListAdapter
-import com.squareup.picasso.Picasso
-
 import androidx.recyclerview.widget.DiffUtil
+import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.example.openbanktechtest.databinding.CharacterListItemBinding
 import com.example.openbanktechtest.main.domain.character.CharacterDomainModel
 import com.example.openbanktechtest.main.presentation.list.CharacterListAdapter.CharacterListViewHolder
+import com.squareup.picasso.Picasso
 
 class CharacterListAdapter(private val listener: (CharacterDomainModel) -> Unit)
     : ListAdapter<CharacterDomainModel, CharacterListViewHolder>(TaskDiffCallBack()){

@@ -1,8 +1,6 @@
 package com.example.openbanktechtest.main.data.character
 
-import com.example.openbanktechtest.main.data.response.ResponseDTO
 import com.google.gson.Gson
-import org.junit.Assert.*
 import org.junit.Test
 
 class CharacterDTOTest {

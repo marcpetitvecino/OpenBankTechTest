@@ -4,7 +4,6 @@ import com.example.data.repository.Mapper
 import com.example.openbanktechtest.main.data.character.CharacterDTO
 import com.example.openbanktechtest.main.data.response.ResponseDTO
 import com.example.openbanktechtest.main.domain.character.CharacterDomainModel
-import com.example.openbanktechtest.main.domain.response.ResponseDomainModel
 
 class ListMapper(
     private val characterMapper: Mapper<CharacterDomainModel, CharacterDTO>

@@ -7,7 +7,7 @@ import com.example.openbanktechtest.main.data.response.ResponseDTO
 import com.example.openbanktechtest.main.domain.character.CharacterDomainModel
 import com.example.openbanktechtest.main.domain.character.CharacterMapper
 import com.example.openbanktechtest.responseDTO
-import org.junit.Assert.*
+import org.junit.Assert.assertEquals
 import org.junit.Before
 import org.junit.Test
 

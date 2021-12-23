@@ -1,11 +1,10 @@
 package com.example.openbanktechtest.main.presentation.detail
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.example.openbanktechtest.R
+import androidx.fragment.app.Fragment
 import com.example.openbanktechtest.databinding.FragmentCharacterDetailBinding
 import com.example.openbanktechtest.main.domain.character.CharacterDomainModel
 import com.squareup.picasso.Picasso

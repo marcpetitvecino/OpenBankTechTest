@@ -2,13 +2,12 @@ package com.example.openbanktechtest.main.presentation.list
 
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import androidx.lifecycle.Observer
-import com.example.openbanktechtest.getListRequestData
-import com.example.openbanktechtest.getResponseItemData
 import com.example.openbanktechtest.main.domain.list.GetListUseCase
-import io.mockk.*
+import io.mockk.MockKAnnotations
 import io.mockk.impl.annotations.RelaxedMockK
+import io.mockk.slot
+import io.mockk.verify
 import kotlinx.coroutines.*
-import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.test.resetMain
 import kotlinx.coroutines.test.setMain
 import org.junit.*

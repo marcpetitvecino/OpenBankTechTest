@@ -5,7 +5,6 @@ import com.example.data.repository.RetrofitPredicate
 import com.example.openbanktechtest.main.data.response.ResponseDTO
 import com.example.openbanktechtest.main.domain.character.CharacterDomainModel
 import com.example.openbanktechtest.main.domain.list.ListRequest
-import com.example.openbanktechtest.main.domain.response.ResponseDomainModel
 
 class ListPredicate(
     private val mapper: Mapper<List<CharacterDomainModel>, ResponseDTO>,
