@@ -1,5 +1,6 @@
 package com.example.openbanktechtest.main.presentation.list
 
+import android.content.Context
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -27,6 +28,11 @@ class CharacterListFragment : Fragment() {
 
     private lateinit var progressBar: ProgressBar
 
+    override fun onAttach(context: Context) {
+        super.onAttach(context)
+        listViewModel.dispatch(ListFragmentEvent.InitEvent)
+    }
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -39,7 +45,6 @@ class CharacterListFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         createProgressBar()
         initObservers()
-        listViewModel.dispatch(ListFragmentEvent.InitEvent)
     }
 
     private fun createProgressBar() {
@@ -76,7 +81,6 @@ class CharacterListFragment : Fragment() {
     }
 
     private fun showLoadingView() {
-        bindingView?.characterList?.visibility = GONE
         progressBar.visibility = VISIBLE
     }
 
